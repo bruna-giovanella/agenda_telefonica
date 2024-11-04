@@ -137,7 +137,6 @@ def listar_contato(agenda_telefonica):
 
             if contato not in agenda_telefonica:
                 print('\n\U000026A0 Atenção! O contato informado não está na sua Agenda. Por favor, informe um contato válido:\n')
-                contato = input('Informe o contato que deseja visualizar: ')
             else:
                 print(f'\n--- Detalhes do Contato: {contato} ---')
                 for chave, valor in agenda_telefonica[contato].items():
